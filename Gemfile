@@ -12,7 +12,7 @@ ruby RUBY_VERSION
 gem "jekyll", "3.4.3"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-ruby '2.1.0'
+ruby '2.2.2'
 gem 'bundler'
 gem 'rack-jekyll'
 
