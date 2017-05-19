@@ -15,6 +15,8 @@ gem "jekyll", "3.4.3"
 ruby '2.2.2'
 gem 'bundler'
 gem 'rack-jekyll'
+gem 'puma'
+gem 'kramdown'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
@@ -27,4 +29,6 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+
 
